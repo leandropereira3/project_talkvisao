@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="Talk">
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="app_icon.ico" >
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<script src="lib/jquery.js"></script>
+<script src="js/index.js"></script>
+
+<title>Talk</title>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-static-top menu-back">
+	  <div class="container">
+	  		<span class="navbar-brand link-menu-color" >Talk</span>
+			<div class="menu-align">
+			    			    
+			    
+	    	</div>	    
+	  </div>
+	</nav>
+	<div class="container">
+
+		<div class="page-header text-center">
+			<h1>Entrar</h1>	
+			</div>
+
+			<br/>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label>Usuário</label>
+						<input id="usuario" name="usuario" class="form-control" ></input>			
+					</div>
+					<div class="form-group">
+						<label>Senha</label>
+						<input id="senha" name="senha" class="form-control"></input>			
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<p></p>
+					<p></p>
+					<p>Existem 3 usuários inicialmente cadastrados("user1", "user2" e "user3") todos com a mesma senha ("123").</p>
+					<p>Após fazer um novo cadastro de usuário, inicialmente ele não terá nenhum contato vinculado.</p>
+					<p>Não existe a funcionalidade de convite ou bloqueio. Ao adicionar um contato em sua lista de contatos, seu usuário aparecerá na lista de contatos do usuário adicionado.</p>
+					<p>Para enviar uma mensagem é preciso selecionar um contato.</p>
+					<p>O histórico de conversas será mostrado automaticamente ao selecionar um contato.</p>
+				</div>
+			</div>		
+
+			<div class="row">
+				<div class="col-md-6">
+					
+					<button type="button" class="btn btn-primary" onclick="login();">Entrar</button>			
+				</div>
+			</div>	
+
+			<br/>	
+
+			<div class="row">
+				<div class="col-md-6">			
+					<a href="pages/novo_usuario.html">Quero me cadastrar</a>
+				</div>
+			</div>		
+	</div>	
+	
+
+</body>
+</html>

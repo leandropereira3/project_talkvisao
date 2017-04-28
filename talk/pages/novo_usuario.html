@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="Talk">
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="app_icon.ico" >
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/custom.css">
+<script src="../lib/jquery.js"></script>
+<script src="../js/novo_usuario.js"></script>
+
+<title>Talk</title>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-static-top menu-back">
+	  <div class="container">
+	  		<span class="navbar-brand link-menu-color" >Talk</span>
+			<div class="menu-align">			    
+			    <a class="navbar-brand link-menu-color" href="../index.html">Entrar</a>	
+	    	</div>	    
+	  </div>
+	</nav>
+	<div class="container">
+
+		<div class="page-header text-center">
+			<h1>Novo usuário</h1>	
+			</div>
+
+			<br/>
+
+			<div class="row">
+				<div class="col-md-12">
+				<div class="form-group">
+						<label>Apelido</label>
+						<input id="apelido" name="apelido" class="form-control"></input>			
+					</div>
+					<div class="form-group">
+						<label>Login</label>
+						<input id="login" name="login" class="form-control" ></input>			
+					</div>
+					<div class="form-group">
+						<label>Senha</label>
+						<input id="senha" name="senha" class="form-control"></input>			
+					</div>
+				</div>				
+			</div>			
+
+			<div class="row">
+				<div class="col-md-12">					
+					<button type="button" class="btn btn-primary" onclick="salvar();">Cadastrar</button>			
+				</div>
+			</div>	
+				
+	</div>	
+
+	
+
+</body>
+</html>

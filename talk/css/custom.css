@@ -1,0 +1,48 @@
+.text-center{
+  text-align: center;
+}
+
+.img-default{
+	width: 250;
+	height: 250;
+}
+
+.bs-docs-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
+}
+
+.menu-back {
+	color: #99979c;    
+    background-color: #2a2730;	
+}
+
+.link-menu-color {
+	color: white !important;    
+}
+
+.menu-align{
+    float: right;
+}
+
+a.bloco-link{
+    width:150px;
+    height:30px;
+    background:#E8E8E8;
+    transition:all 0.3s ease;            
+    color: black;
+    font-family: Lato;          
+    font-size: 16px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    display: table-cell !important;         
+}       
+.color:hover
+{
+    background:#4a9eda;
+    font-size: 17px !important;
+}        
